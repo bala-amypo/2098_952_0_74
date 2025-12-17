@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 @Entity
 
 public class Student{
-    @id    //primary key
+    @Id    //primary key
     @GeneratedValue(strategy=GenerationType.IDENTITY)     //to autogenerate the primary key(optional)
       private Long id;
       private String name;
