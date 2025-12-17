@@ -1,3 +1,7 @@
 package com.example.demo.repository;
 
-public interface 
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentRepository extends JpaRepository{
+
+}
