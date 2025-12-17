@@ -1,5 +1,10 @@
 package com.example.demo.entity;
+
 import java.time.LocalDate;
+
+import jakarta.persistence.Entity;
+
+@Entity
 
 public class Student{
       private Long id;
