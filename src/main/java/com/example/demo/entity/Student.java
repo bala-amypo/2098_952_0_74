@@ -14,7 +14,7 @@ public class Student{
       private String dept;
       private LocalDate dob;
       private float cgpa;
-}
+
  public Long getId() {
         return id;
     }
@@ -54,3 +54,4 @@ public Student(Long id, String name, String dept, LocalDate dob, float cgpa) {
     }
     public Student() {
     }
+}
