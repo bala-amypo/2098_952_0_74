@@ -45,7 +45,7 @@ public class StudentServiceImpl implements StudentService{
         return "Student deleted successfully";
         }
         else{
-        return "Student with id "+id+" not found";
+        return "Student with ID "+id+" not found";
         }
 }
 }   
